@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {Game} from "../modely/game-params";
+import {Game} from '../modely/game-params';
 import {Router} from '@angular/router';
-import {HttpClient, HttpErrorResponse} from "@angular/common/http";
+import {HttpClient, HttpErrorResponse} from '@angular/common/http';
 
 @Component({
   selector: 'app-game-list',

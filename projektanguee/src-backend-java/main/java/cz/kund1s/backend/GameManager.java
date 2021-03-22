@@ -1,4 +1,4 @@
-package cz.maxikek.netitletovatelne;
+package cz.kund1s.backend;
 
 
 import javax.enterprise.context.ApplicationScoped;

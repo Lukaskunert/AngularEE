@@ -1,6 +1,6 @@
 <h1>Napiš herní detaily jinak nic nebude :) ---> </h1>
 
-<input id="Idko" name="Idko" [(ngModel)]="idko">
+<input id="Id" name="Id" [(ngModel)]="id">
 <input id="Name" name="Name" [(ngModel)]="name">
 <input id="Price" name="Price" [(ngModel)]="price">
 <input id="Studio" name="Studio" [(ngModel)]="studio">
@@ -16,7 +16,7 @@
   <td>Studio</td>
   </thead>
   <tr *ngFor="let gameDetail of games" class="gameDetail">
-    <td>{{gameDetail.idko}}</td>
+    <td>{{gameDetail.id}}</td>
     <td>{{gameDetail.name}}</td>
     <td>{{gameDetail.price}}</td>
     <td>{{gameDetail.studio}}</td>
